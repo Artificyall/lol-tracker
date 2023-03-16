@@ -1,7 +1,7 @@
 import { useState } from "react"
 import "./App.css"
-import { Player } from "./Player"
-import { SearchBar } from "./SearchBar"
+import { Player } from "./components/Player"
+import { SearchBar } from "./components/SearchBar"
 
 function App() {
   const [query, setQuery] = useState("")
